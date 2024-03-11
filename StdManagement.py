@@ -16,7 +16,7 @@ for name, info in students_dict.items():
 #To search
 student_search = input("Enter the name of the student to search or simply enter to skip: ")
 if name in students_dict:
-    info = student[name]
+    info = students_dict[name]
     print(f"Name: {name}, Age: {info['age']}, Grade: {info['grade']}")
 else:
     print("Student not found!")
